@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDemo.API", "DataStoreDemo.API\DataStoreDemo.API.csproj", "{1663168D-03FB-42F7-A8B6-49A119249FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDemo.AppHost", "DataStoreDemo.AppHost\DataStoreDemo.AppHost.csproj", "{AB65D141-CA86-44BF-993F-BB68BC168E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDemo.ServiceDefaults", "DataStoreDemo.ServiceDefaults\DataStoreDemo.ServiceDefaults.csproj", "{507E8C9E-9FE8-4327-B6E8-D76332CBC367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDemo.Database", "DataStoreDemo.Database\DataStoreDemo.Database.csproj", "{F3E2FBA9-3F0C-42FD-BEBF-C1EF35AC4A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDemo.DatabaseSeeder", "DataStoreDemo.DatabaseSeeder\DataStoreDemo.DatabaseSeeder.csproj", "{DB553114-C8F1-42ED-AACA-E7417373840E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B69C606D-FE7B-4F3F-B742-F86C12DA399A}"
+	ProjectSection(SolutionItems) = preProject
+		load-test-cache.js = load-test-cache.js
+		load-test-database.js = load-test-database.js
+		load-test-output-cache.js = load-test-output-cache.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1663168D-03FB-42F7-A8B6-49A119249FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1663168D-03FB-42F7-A8B6-49A119249FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1663168D-03FB-42F7-A8B6-49A119249FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1663168D-03FB-42F7-A8B6-49A119249FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB65D141-CA86-44BF-993F-BB68BC168E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB65D141-CA86-44BF-993F-BB68BC168E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB65D141-CA86-44BF-993F-BB68BC168E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB65D141-CA86-44BF-993F-BB68BC168E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507E8C9E-9FE8-4327-B6E8-D76332CBC367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507E8C9E-9FE8-4327-B6E8-D76332CBC367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507E8C9E-9FE8-4327-B6E8-D76332CBC367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507E8C9E-9FE8-4327-B6E8-D76332CBC367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E2FBA9-3F0C-42FD-BEBF-C1EF35AC4A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E2FBA9-3F0C-42FD-BEBF-C1EF35AC4A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E2FBA9-3F0C-42FD-BEBF-C1EF35AC4A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E2FBA9-3F0C-42FD-BEBF-C1EF35AC4A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB553114-C8F1-42ED-AACA-E7417373840E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB553114-C8F1-42ED-AACA-E7417373840E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB553114-C8F1-42ED-AACA-E7417373840E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB553114-C8F1-42ED-AACA-E7417373840E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
